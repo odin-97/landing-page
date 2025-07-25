@@ -96,7 +96,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px dotted darkorchid;
+    /* border: 3px dotted darkorchid; */
     padding: 16px;
 }
 
@@ -104,6 +104,7 @@ button {
     display: flex;
     /* border: 3px dotted orange; */
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .card-item {
@@ -116,6 +117,14 @@ button {
 .card {
     width: 150px;
     height: 150px;
-    border: 2px solid #3882f6;
+    border: 4px solid #3882f6;
     border-radius: 12px;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    /* border: 2px dotted green; */
+    margin-bottom: 48px;
 }
