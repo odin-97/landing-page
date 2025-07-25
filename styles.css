@@ -128,3 +128,40 @@ button {
     /* border: 2px dotted green; */
     margin-bottom: 48px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 90px 0px;
+    /* border: 3px dotted green; */
+}
+
+.quote-container-text {
+    width: 60%;
+    /* border: 3px dotted darkorchid; */
+} 
+
+
+.quote-container-person {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 12px;
+    /* border: 3px dotted darkorchid; */
+}
+
+.quote-person {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
