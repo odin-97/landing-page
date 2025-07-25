@@ -50,7 +50,9 @@ a {
     display: flex;
     width: 75%;
     /* border: 3px dotted darkorchid; */
-    margin-bottom: 40px;
+    gap: 12px;
+    margin-bottom: 100px;
+    margin-top: 40px;
 }
 
 .hero-info {
@@ -59,7 +61,7 @@ a {
     justify-content: space-between;
     align-items: start;
     /* border: 3px dotted orange; */
-    padding: 12px;
+    padding: 0 12px;
     gap: 12px;
     width: 50%;
 }
